@@ -11,4 +11,4 @@ life = life - 50; // damage taken MATH
 
 const person = {age:"40's", sex:"male", species: "half-demon"};
 
-console.log("Life"); // changed output
+console.log(life); // changed output
