@@ -11,4 +11,30 @@ life = life - 50; // damage taken MATH
 
 const person = {age:"40's", sex:"male", species: "half-demon"};
 
-console.log(life); // changed output
+
+function greet (firstName) {
+    console.log("Hello World" + " " + firstName);
+    
+}
+
+function personInfo (personObj) {
+    console.log(person);
+    document.getElementById("demo2").innerHTML = person.age;
+}
+
+function myFunction() {
+    let text = document.getElementById("demo").innerHTML; 
+    document.getElementById("demo").innerHTML =
+    text.replace("Vergil","Dante");
+  }
+
+function restore(a, b) {
+    return a * b;
+  
+}
+
+greet("Professor");
+greet("Classmate");
+//personInfo(person);
+document.getElementById("demo3").innerHTML = restore(5, 10);
+
